@@ -1,0 +1,38 @@
+<sdf version="1.6">
+  <world name="ModelTest">
+    <gravity>0 0 0</gravity>
+    <scene>
+      <ambient>1 1 1</ambient>
+      <grid>false</grid>
+      <sky></sky>
+    </scene>
+    <light type="directional" name="point_01">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 -1.3 0 0.5</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <intensity>2</intensity>
+      <attenuation>
+        <range>600</range>
+        <constant>0</constant>
+        <linear>1</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+    <include>
+      <name>Lake House</name>
+      <uri>Lake House</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>Water</name>
+      <uri>Coast Waves 2</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>Terrain</name>
+      <uri>Terrain</uri>
+    </include>
+  </world>
+</sdf>
+
