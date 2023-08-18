@@ -1307,7 +1307,7 @@
         <pose>0.281 31.562 2.918 0.0572849 -0.065186 0.0183151</pose>
         <geometry>
           <mesh>
-            <uri>meshes/collider_rockpile.dae</uri>
+            <uri>meshes/collider_stump.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
@@ -1316,7 +1316,7 @@
         <pose>44.9528 2.38428 7.43 0.25085 0.020702 -2.56125</pose>
         <geometry>
           <mesh>
-            <uri>meshes/collider_rockpile.dae</uri>
+            <uri>meshes/collider_stump.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
@@ -1325,7 +1325,7 @@
         <pose>-42.2841 -31.2647 5.359 0.0 0.0 0.0</pose>
         <geometry>
           <mesh>
-            <uri>meshes/collider_rockpile.dae</uri>
+            <uri>meshes/collider_stump.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
@@ -1334,7 +1334,7 @@
         <pose>-9.63565 -35.0113 6.179 0.0657493 0.0427428 0.00303132</pose>
         <geometry>
           <mesh>
-            <uri>meshes/collider_rockpile.dae</uri>
+            <uri>meshes/collider_stump.dae</uri>
             <scale>1.3801 1.3801 1.3801</scale>
           </mesh>
         </geometry>
