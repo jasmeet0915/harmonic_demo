@@ -34,6 +34,10 @@
       <uri>Terrain</uri>
     </include>
     <include>
+      <name>Terrain Objects</name>
+      <uri>Terrain Objects</uri>
+    </include>
+    <include>
       <name>Armchair_01</name>
       <pose>-0.24 -0.13 6.90 0 0 -1.83</pose>
       <uri>Armchair</uri>
