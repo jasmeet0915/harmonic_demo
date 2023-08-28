@@ -1,7 +1,12 @@
-<sdf version="1.6">
-  <world name="harmonic">
+<?xml version="1.0" ?>
 
+<sdf version="1.9">
+  <world name="harmonic">
     <physics name="1ms" type="ignored">
+      <dart>
+        <!-- Heightmaps behave better with the bullet collision detector -->
+        <collision_detector>bullet</collision_detector>
+      </dart>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
     </physics>
