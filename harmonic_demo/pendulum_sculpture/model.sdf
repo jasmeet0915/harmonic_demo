@@ -63,12 +63,11 @@
       </visual>
       <collision name="col_plate_on_ground">
         <density>2710.0</density>
-        <pose>0 0 0.0005 0 0 0</pose>
+        <pose>-0.0 0.001 0.0005 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.50</radius>
-            <length>0.0025</length>
-          </cylinder>
+          <box>
+            <size>0.2 0.5 0.015</size>
+          </box>
         </geometry>
       </collision>
       <collision name="col_pole">
